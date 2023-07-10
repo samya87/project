@@ -1,0 +1,30 @@
+/* common shared styles */
+body{font-family: 'Open Sans', sans-serif;}
+.text-primary{ color: #FD6E0A; }
+.btn-primary{ 
+    border-radius: 5px; border: 0;
+    background: #FD6E0A;
+    width: 150px; height: 64px; 
+
+    font-size: 20px; color: white; font-weight: 700;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex; align-items: center;
+}
+li a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px; 
+}
