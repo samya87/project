@@ -4,19 +4,18 @@ body{font-family: 'Open Sans', sans-serif;}
 .btn-primary{ 
     border-radius: 5px; border: 0;
     background: #FD6E0A;
-    width: 150px; height: 64px; 
 
     font-size: 20px; color: white; font-weight: 700;
+    padding: 18px 36px;
 }
 nav {
-    display: flex;
-    align-items: center;
+    display: flex; align-items: center;
     justify-content: space-between;
+    padding-top: 51px; padding-left: 230px;
 }
 .nav-title{
     color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 45px; font-weight: 800;
 }
 nav > ul{
     display: flex; align-items: center;
@@ -25,6 +24,43 @@ li a{
     text-decoration: none;
 }
 nav li{
-    list-style: none;
-    margin-right: 50px; 
+    list-style: none; margin-right: 50px; 
 }
+header{
+    width: 1600px; height: 910px; 
+    background: #FFF8F3; 
+    background-image: url("../images/header_bg.png"); background-repeat: no-repeat; background-position: bottom right;
+}
+.banner{
+    padding-left: 230px; padding-top: 30px;
+    padding-right: 30px; display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-hardy{
+    width: 584px; height: 676px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
